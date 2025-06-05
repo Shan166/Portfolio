@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 60px 0;
     }
 }
-/* Add this to your style.css file */
+
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     color: #ff6b00;
