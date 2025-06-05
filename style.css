@@ -157,3 +157,20 @@ h1, h2, h3, h4, h5, h6 {
         padding: 60px 0;
     }
 }
+/* Add this to your style.css file */
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ff6b00;
+    opacity: 0.8;
+}
+
+.contact-form input,
+.contact-form textarea {
+    color: #ff6b00 !important;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff6b00 !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 0, 0.25);
+}
